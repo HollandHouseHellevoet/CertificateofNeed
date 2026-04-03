@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "abbr": "AL",
+    "score": 78
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "abbr": "AK",
+    "score": 65
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "abbr": "CT",
+    "score": 82
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "abbr": "DE",
+    "score": 35
+  },
+  {
+    "name": "District of Columbia",
+    "slug": "district-of-columbia",
+    "abbr": "DC",
+    "score": 48
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "abbr": "GA",
+    "score": 75
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "abbr": "HI",
+    "score": 70
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "abbr": "IL",
+    "score": 68
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "abbr": "IA",
+    "score": 45
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "abbr": "KY",
+    "score": 100
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "abbr": "ME",
+    "score": 42
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "abbr": "MD",
+    "score": 62
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "abbr": "MA",
+    "score": 55
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "abbr": "MI",
+    "score": 60
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "abbr": "MN",
+    "score": 30
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "abbr": "MS",
+    "score": 80
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "abbr": "MO",
+    "score": 72
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "abbr": "NV",
+    "score": 38
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "abbr": "NJ",
+    "score": 58
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "abbr": "NY",
+    "score": 88
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "abbr": "NC",
+    "score": 77
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "abbr": "OR",
+    "score": 40
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "abbr": "RI",
+    "score": 73
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "abbr": "SC",
+    "score": 79
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "abbr": "TN",
+    "score": 76
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "abbr": "VT",
+    "score": 90
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "abbr": "VA",
+    "score": 95
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "abbr": "WA",
+    "score": 52
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "abbr": "WV",
+    "score": 85
+  }
+]
