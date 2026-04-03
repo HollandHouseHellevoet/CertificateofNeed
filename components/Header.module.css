@@ -1,0 +1,168 @@
+.header {
+  background: var(--navy);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.logoText {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--cream);
+  letter-spacing: 0.02em;
+}
+
+.tagline {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 8.5px;
+  color: var(--orange);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.desktopNav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navLink {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--cream-60);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  transition: color 150ms ease;
+}
+
+.navLink:hover {
+  color: var(--cream);
+}
+
+.subscribe {
+  background: var(--orange);
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 2px;
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 150ms ease;
+  display: inline-flex;
+  align-items: center;
+}
+
+.subscribe:hover {
+  background: var(--orange-hover);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 4px;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburgerLine {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--cream);
+  border-radius: 1px;
+}
+
+.mobileNav {
+  display: none;
+  flex-direction: column;
+  background: var(--navy);
+  border-top: 1px solid var(--border);
+  padding: 20px 40px;
+  gap: 20px;
+}
+
+.mobileNavLink {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--cream-60);
+  text-decoration: none;
+  letter-spacing: 0.06em;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.mobileNavLink:last-child {
+  border-bottom: none;
+}
+
+.mobileSub {
+  background: var(--orange);
+  color: #fff;
+  padding: 10px 16px;
+  text-align: center;
+  border-bottom: none;
+  border-radius: 2px;
+  justify-content: center;
+  min-height: 44px;
+}
+
+@media (max-width: 900px) {
+  .inner {
+    padding: 0 24px;
+    height: 56px;
+  }
+
+  .desktopNav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .mobileNav {
+    padding: 20px 24px;
+  }
+}

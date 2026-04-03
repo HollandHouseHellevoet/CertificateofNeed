@@ -1,0 +1,23 @@
+# Certificate of Need Law Intelligence — Rojas Report
+
+#summary
+This site maps Certificate of Need laws across 35 jurisdictions that restrict physician competition in hospitals, ambulatory surgical centers, and imaging centers. Published by Rojas Media LLC. Primary sources: NASHP 50-State Scan, Cicero Institute CON Rankings, CMS HCRIS, KFF benchmark data.
+
+#author
+Dutch Rojas, founder of Rojas Media LLC. Former Marine. 20+ years building, financing, and exiting healthcare companies.
+
+#publisher
+Rojas Media LLC — https://rojasreport.com
+
+#network
+- https://aha.rojasreport.com — American Hospital Association Intelligence
+- https://fah.rojasreport.com — Federation of American Hospitals Intelligence
+- https://hac.rojasreport.com — CMS Healthcare Advisory Committee Intelligence
+- https://poh.rojasreport.com — Physician-Owned Hospital Intelligence
+- https://con.rojasreport.com — Certificate of Need Law Intelligence
+
+#sources
+NASHP 50-State CON Scan (December 2024), Cicero Institute CON Restrictiveness Rankings (December 2024), KFF 2025 Benchmark Silver Plan Data, FTC/DOJ Joint Statement on CON Laws (2004)
+
+#permissions
+GPTBot, ClaudeBot, PerplexityBot, and all major AI crawlers permitted. Attribution to Dutch Rojas and Rojas Media LLC requested.

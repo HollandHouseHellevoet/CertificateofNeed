@@ -1,0 +1,238 @@
+.hero {
+  background: var(--deep-navy);
+  padding: 80px 40px 72px;
+}
+
+.heroInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heroTag {
+  display: inline-block;
+  border: 1px solid rgba(207, 86, 4, 0.45);
+  color: var(--orange);
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  margin-bottom: 28px;
+}
+
+.heroH1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--cream);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  margin-bottom: 22px;
+  max-width: 800px;
+}
+
+.heroBody {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: var(--cream-60);
+  line-height: 1.75;
+  max-width: 640px;
+  margin-bottom: 12px;
+}
+
+.heroMeta {
+  font-size: 11.5px;
+  color: var(--cream-25);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.heroBtns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--orange);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 2px;
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 150ms ease;
+  min-height: 44px;
+}
+
+.btnPrimary:hover {
+  background: var(--orange-hover);
+}
+
+/* Three numbers section */
+.numbers {
+  background: var(--deep-navy);
+  border-top: 1px solid var(--border);
+  padding: 64px 40px;
+}
+
+.numbersInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.numbersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: rgba(248, 245, 239, 0.05);
+}
+
+.numberCard {
+  background: var(--card-bg);
+  padding: 28px 24px;
+  border-left: 3px solid var(--orange);
+}
+
+.numberLabel {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+  margin-bottom: 8px;
+}
+
+.numberFigure {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 2.75rem;
+  color: var(--orange);
+  line-height: 1.1;
+  margin-bottom: 8px;
+}
+
+.numberDesc {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--cream-60);
+  line-height: 1.65;
+}
+
+/* Map section */
+.mapSection {
+  background: var(--deep-navy);
+  border-top: 1px solid var(--border);
+  padding: 64px 40px;
+}
+
+.mapInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionEyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.sectionNum {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  padding: 2px 7px;
+  letter-spacing: 0.04em;
+}
+
+.sectionLabel {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+}
+
+.sectionH2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: var(--cream);
+  margin-bottom: 10px;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+.sectionDesc {
+  font-size: 14.5px;
+  color: var(--cream-60);
+  line-height: 1.7;
+  max-width: 580px;
+  margin-bottom: 0;
+}
+
+.orangeRule {
+  width: 48px;
+  height: 2px;
+  background: var(--orange);
+  margin: 24px 0 36px;
+}
+
+/* Placeholder for state table */
+.placeholder {
+  background: var(--deep-navy);
+  border-top: 1px solid var(--border);
+  padding: 64px 40px;
+  text-align: center;
+}
+
+.placeholderInner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.placeholderText {
+  font-family: 'Source Sans Pro', system-ui, sans-serif;
+  font-size: 14px;
+  color: var(--cream-40);
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 56px 24px 48px;
+  }
+
+  .heroH1 {
+    font-size: 2.25rem;
+  }
+
+  .numbers {
+    padding: 48px 24px;
+  }
+
+  .numbersGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .mapSection {
+    padding: 48px 24px;
+  }
+
+  .placeholder {
+    padding: 48px 24px;
+  }
+}
