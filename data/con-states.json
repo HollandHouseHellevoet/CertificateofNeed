@@ -1,176 +1,53 @@
 [
-  {
-    "name": "Alabama",
-    "slug": "alabama",
-    "abbr": "AL",
-    "score": 78
-  },
-  {
-    "name": "Alaska",
-    "slug": "alaska",
-    "abbr": "AK",
-    "score": 65
-  },
-  {
-    "name": "Connecticut",
-    "slug": "connecticut",
-    "abbr": "CT",
-    "score": 82
-  },
-  {
-    "name": "Delaware",
-    "slug": "delaware",
-    "abbr": "DE",
-    "score": 35
-  },
-  {
-    "name": "District of Columbia",
-    "slug": "district-of-columbia",
-    "abbr": "DC",
-    "score": 48
-  },
-  {
-    "name": "Georgia",
-    "slug": "georgia",
-    "abbr": "GA",
-    "score": 75
-  },
-  {
-    "name": "Hawaii",
-    "slug": "hawaii",
-    "abbr": "HI",
-    "score": 70
-  },
-  {
-    "name": "Illinois",
-    "slug": "illinois",
-    "abbr": "IL",
-    "score": 68
-  },
-  {
-    "name": "Iowa",
-    "slug": "iowa",
-    "abbr": "IA",
-    "score": 45
-  },
-  {
-    "name": "Kentucky",
-    "slug": "kentucky",
-    "abbr": "KY",
-    "score": 100
-  },
-  {
-    "name": "Maine",
-    "slug": "maine",
-    "abbr": "ME",
-    "score": 42
-  },
-  {
-    "name": "Maryland",
-    "slug": "maryland",
-    "abbr": "MD",
-    "score": 62
-  },
-  {
-    "name": "Massachusetts",
-    "slug": "massachusetts",
-    "abbr": "MA",
-    "score": 55
-  },
-  {
-    "name": "Michigan",
-    "slug": "michigan",
-    "abbr": "MI",
-    "score": 60
-  },
-  {
-    "name": "Minnesota",
-    "slug": "minnesota",
-    "abbr": "MN",
-    "score": 30
-  },
-  {
-    "name": "Mississippi",
-    "slug": "mississippi",
-    "abbr": "MS",
-    "score": 80
-  },
-  {
-    "name": "Missouri",
-    "slug": "missouri",
-    "abbr": "MO",
-    "score": 72
-  },
-  {
-    "name": "Nevada",
-    "slug": "nevada",
-    "abbr": "NV",
-    "score": 38
-  },
-  {
-    "name": "New Jersey",
-    "slug": "new-jersey",
-    "abbr": "NJ",
-    "score": 58
-  },
-  {
-    "name": "New York",
-    "slug": "new-york",
-    "abbr": "NY",
-    "score": 88
-  },
-  {
-    "name": "North Carolina",
-    "slug": "north-carolina",
-    "abbr": "NC",
-    "score": 77
-  },
-  {
-    "name": "Oregon",
-    "slug": "oregon",
-    "abbr": "OR",
-    "score": 40
-  },
-  {
-    "name": "Rhode Island",
-    "slug": "rhode-island",
-    "abbr": "RI",
-    "score": 73
-  },
-  {
-    "name": "South Carolina",
-    "slug": "south-carolina",
-    "abbr": "SC",
-    "score": 79
-  },
-  {
-    "name": "Tennessee",
-    "slug": "tennessee",
-    "abbr": "TN",
-    "score": 76
-  },
-  {
-    "name": "Vermont",
-    "slug": "vermont",
-    "abbr": "VT",
-    "score": 90
-  },
-  {
-    "name": "Virginia",
-    "slug": "virginia",
-    "abbr": "VA",
-    "score": 95
-  },
-  {
-    "name": "Washington",
-    "slug": "washington",
-    "abbr": "WA",
-    "score": 52
-  },
-  {
-    "name": "West Virginia",
-    "slug": "west-virginia",
-    "abbr": "WV",
-    "score": 85
-  }
+  {"rank":1,"name":"Texas","slug":"texas","abbr":"TX","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Idaho","slug":"idaho","abbr":"ID","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"New Hampshire","slug":"new-hampshire","abbr":"NH","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"California","slug":"california","abbr":"CA","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Colorado","slug":"colorado","abbr":"CO","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Kansas","slug":"kansas","abbr":"KS","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"New Mexico","slug":"new-mexico","abbr":"NM","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Pennsylvania","slug":"pennsylvania","abbr":"PA","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"South Dakota","slug":"south-dakota","abbr":"SD","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Utah","slug":"utah","abbr":"UT","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Wyoming","slug":"wyoming","abbr":"WY","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":1,"name":"Arizona","slug":"arizona","abbr":"AZ","conStatus":"No","score":0,"tier":"Free Market","hasProfile":false},
+  {"rank":14,"name":"Florida","slug":"florida","abbr":"FL","conStatus":"Repealed","score":5,"tier":"Mostly Free","hasProfile":true},
+  {"rank":14,"name":"Montana","slug":"montana","abbr":"MT","conStatus":"Limited","score":5,"tier":"Mostly Free","hasProfile":false},
+  {"rank":14,"name":"North Dakota","slug":"north-dakota","abbr":"ND","conStatus":"Limited","score":5,"tier":"Mostly Free","hasProfile":false},
+  {"rank":14,"name":"Ohio","slug":"ohio","abbr":"OH","conStatus":"Repealed","score":5,"tier":"Mostly Free","hasProfile":false},
+  {"rank":14,"name":"Wisconsin","slug":"wisconsin","abbr":"WI","conStatus":"Limited","score":5,"tier":"Mostly Free","hasProfile":false},
+  {"rank":18,"name":"Arkansas","slug":"arkansas","abbr":"AR","conStatus":"Limited","score":15,"tier":"Mostly Free","hasProfile":false},
+  {"rank":18,"name":"Indiana","slug":"indiana","abbr":"IN","conStatus":"Limited","score":15,"tier":"Mostly Free","hasProfile":false},
+  {"rank":20,"name":"Oklahoma","slug":"oklahoma","abbr":"OK","conStatus":"Limited","score":20,"tier":"Mostly Free","hasProfile":false},
+  {"rank":21,"name":"Minnesota","slug":"minnesota","abbr":"MN","conStatus":"Yes","score":30,"tier":"Moderate","hasProfile":false},
+  {"rank":22,"name":"South Carolina","slug":"south-carolina","abbr":"SC","conStatus":"Repealing","score":35,"tier":"Moderate","hasProfile":false},
+  {"rank":23,"name":"Delaware","slug":"delaware","abbr":"DE","conStatus":"Yes","score":45,"tier":"Moderate","hasProfile":false},
+  {"rank":23,"name":"Nebraska","slug":"nebraska","abbr":"NE","conStatus":"Yes","score":45,"tier":"Moderate","hasProfile":false},
+  {"rank":25,"name":"Alaska","slug":"alaska","abbr":"AK","conStatus":"Yes","score":55,"tier":"Restrictive","hasProfile":false},
+  {"rank":25,"name":"Louisiana","slug":"louisiana","abbr":"LA","conStatus":"Yes","score":55,"tier":"Restrictive","hasProfile":false},
+  {"rank":27,"name":"Hawaii","slug":"hawaii","abbr":"HI","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":false},
+  {"rank":27,"name":"Maine","slug":"maine","abbr":"ME","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":false},
+  {"rank":27,"name":"Michigan","slug":"michigan","abbr":"MI","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":false},
+  {"rank":27,"name":"Illinois","slug":"illinois","abbr":"IL","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":true},
+  {"rank":27,"name":"Oregon","slug":"oregon","abbr":"OR","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":false},
+  {"rank":27,"name":"New York","slug":"new-york","abbr":"NY","conStatus":"Yes","score":65,"tier":"Restrictive","hasProfile":true},
+  {"rank":33,"name":"Missouri","slug":"missouri","abbr":"MO","conStatus":"Yes","score":80,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":33,"name":"Alabama","slug":"alabama","abbr":"AL","conStatus":"Yes","score":80,"tier":"Highly Restrictive","hasProfile":true},
+  {"rank":33,"name":"Rhode Island","slug":"rhode-island","abbr":"RI","conStatus":"Yes","score":80,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":36,"name":"Tennessee","slug":"tennessee","abbr":"TN","conStatus":"Yes","score":85,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":37,"name":"Mississippi","slug":"mississippi","abbr":"MS","conStatus":"Yes","score":90,"tier":"Highly Restrictive","hasProfile":true},
+  {"rank":37,"name":"Connecticut","slug":"connecticut","abbr":"CT","conStatus":"Yes","score":90,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":37,"name":"Iowa","slug":"iowa","abbr":"IA","conStatus":"Yes","score":90,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":37,"name":"Massachusetts","slug":"massachusetts","abbr":"MA","conStatus":"Yes","score":90,"tier":"Highly Restrictive","hasProfile":true},
+  {"rank":37,"name":"District of Columbia","slug":"district-of-columbia","abbr":"DC","conStatus":"Yes","score":90,"tier":"Highly Restrictive","hasProfile":false},
+  {"rank":41,"name":"Georgia","slug":"georgia","abbr":"GA","conStatus":"Yes","score":95,"tier":"Most Restrictive","hasProfile":true},
+  {"rank":41,"name":"Maryland","slug":"maryland","abbr":"MD","conStatus":"Yes","score":95,"tier":"Most Restrictive","hasProfile":false},
+  {"rank":43,"name":"Kentucky","slug":"kentucky","abbr":"KY","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":true},
+  {"rank":43,"name":"Nevada","slug":"nevada","abbr":"NV","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":false},
+  {"rank":43,"name":"New Jersey","slug":"new-jersey","abbr":"NJ","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":true},
+  {"rank":43,"name":"North Carolina","slug":"north-carolina","abbr":"NC","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":true},
+  {"rank":43,"name":"Vermont","slug":"vermont","abbr":"VT","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":false},
+  {"rank":43,"name":"Virginia","slug":"virginia","abbr":"VA","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":true},
+  {"rank":43,"name":"Washington","slug":"washington","abbr":"WA","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":false},
+  {"rank":43,"name":"West Virginia","slug":"west-virginia","abbr":"WV","conStatus":"Yes","score":100,"tier":"Most Restrictive","hasProfile":false}
 ]

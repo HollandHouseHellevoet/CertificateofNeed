@@ -10,30 +10,31 @@ const GEO_URL = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 interface ConState {
   name: string;
   slug: string;
-  score: number | null;
+  score: number;
+  hasProfile?: boolean;
 }
 
-function getScoreColor(score: number | null): string {
-  if (score === null) return "#8a6a1a";
+function getScoreColor(score: number): string {
   if (score >= 80) return "#c0392b";
   if (score >= 60) return "#c0392b";
   if (score >= 30) return "#8a6a1a";
-  return "#2e6b3e";
+  if (score > 0) return "#2e6b3e";
+  return "#141b24";
 }
 
-function getSeverityLabel(score: number | null): string {
-  if (score === null) return "Moderate";
+function getSeverityLabel(score: number): string {
   if (score >= 80) return "Most Restrictive";
   if (score >= 60) return "Highly Restrictive";
   if (score >= 30) return "Moderate";
-  return "Low";
+  if (score > 0) return "Low";
+  return "Free Market";
 }
 
 export default function ConMap({ states }: { states: ConState[] }) {
   const router = useRouter();
   const [tooltip, setTooltip] = useState<{
     name: string;
-    score: number | null;
+    score: number;
     x: number;
     y: number;
   } | null>(null);
@@ -43,7 +44,7 @@ export default function ConMap({ states }: { states: ConState[] }) {
   const handleClick = useCallback(
     (stateName: string) => {
       const state = stateMap.get(stateName);
-      if (state) {
+      if (state && state.hasProfile) {
         router.push(`/states/${state.slug}`);
       }
     },
@@ -63,8 +64,9 @@ export default function ConMap({ states }: { states: ConState[] }) {
             geographies.map((geo) => {
               const name = geo.properties.name as string;
               const state = stateMap.get(name);
-              const isQualifying = !!state;
-              const fillColor = isQualifying
+              const hasData = !!state;
+              const hasCon = hasData && state.score > 0;
+              const fillColor = hasData
                 ? getScoreColor(state.score)
                 : "#141b24";
 
@@ -79,14 +81,14 @@ export default function ConMap({ states }: { states: ConState[] }) {
                     default: { outline: "none" },
                     hover: {
                       outline: "none",
-                      fill: isQualifying ? `${fillColor}cc` : "#141b24",
-                      cursor: isQualifying ? "pointer" : "default",
+                      fill: hasCon ? `${fillColor}cc` : fillColor,
+                      cursor: state?.hasProfile ? "pointer" : "default",
                     },
                     pressed: { outline: "none" },
                   }}
                   onClick={() => handleClick(name)}
                   onMouseEnter={(evt: React.MouseEvent) => {
-                    if (isQualifying) {
+                    if (hasData) {
                       setTooltip({
                         name,
                         score: state.score,
@@ -96,7 +98,7 @@ export default function ConMap({ states }: { states: ConState[] }) {
                     }
                   }}
                   onMouseMove={(evt: React.MouseEvent) => {
-                    if (isQualifying) {
+                    if (hasData) {
                       setTooltip((prev) =>
                         prev
                           ? { ...prev, x: evt.clientX, y: evt.clientY }
@@ -119,8 +121,7 @@ export default function ConMap({ states }: { states: ConState[] }) {
         >
           <div className={styles.tooltipName}>{tooltip.name}</div>
           <div className={styles.tooltipScore}>
-            {tooltip.score !== null ? `Score: ${tooltip.score}` : "Score: N/A"}{" "}
-            &middot; {getSeverityLabel(tooltip.score)}
+            Score: {tooltip.score} &middot; {getSeverityLabel(tooltip.score)}
           </div>
         </div>
       )}

@@ -53,7 +53,7 @@ export default function NotFound() {
       >
         The page you&apos;re looking for may have been moved or doesn&apos;t
         exist. Return to the homepage to explore Certificate of Need law
-        intelligence across 29 U.S. jurisdictions.
+        intelligence across 35 U.S. jurisdictions.
       </p>
       <Link
         href="/"

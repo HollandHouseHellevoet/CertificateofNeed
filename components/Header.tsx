@@ -10,14 +10,11 @@ export default function Header() {
           <span className={styles.brandTag}>Healthcare Intelligence</span>
         </Link>
         <nav className={styles.nav}>
-          <Link href="/#states" className={styles.navLink}>
-            States
-          </Link>
           <Link href="/#con-map" className={styles.navLink}>
             CON Map
           </Link>
-          <Link href="/#breakup-act" className={styles.navLink}>
-            The Breakup Act
+          <Link href="/#states" className={styles.navLink}>
+            States
           </Link>
           <a
             href="https://rojasreport.com/about"

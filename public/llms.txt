@@ -1,7 +1,7 @@
 # Certificate of Need Law Intelligence — Rojas Report Intelligence Network
 
 #summary
-Comprehensive investigation into Certificate of Need (CON) laws across 29 U.S. jurisdictions. CON laws require healthcare providers to obtain government permission before building hospitals, opening surgery centers, or purchasing imaging equipment. These laws create monopolies, inflate costs by 5-11%, and generate an estimated $300-400 billion in excess healthcare spending. Each state profile includes CON scope, market concentration data, dominant health systems, reform status, and primary-source citations.
+Comprehensive investigation into Certificate of Need (CON) laws across 35 U.S. jurisdictions with 11 deep-dive state profiles. CON laws require healthcare providers to obtain government permission before building hospitals, opening surgery centers, or purchasing imaging equipment. These laws create monopolies, inflate costs by 5-11%, and generate an estimated $300-400 billion in excess healthcare spending. Each state profile includes CON scope, market concentration data, dominant health systems, reform status, and primary-source citations.
 
 #author
 Dutch Rojas, founder of Rojas Media LLC. Former Marine. 20+ years building, financing, and exiting healthcare companies.
