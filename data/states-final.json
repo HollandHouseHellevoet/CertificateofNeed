@@ -1,0 +1,1607 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "abbreviation": "AL",
+    "conScore": 78,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Alabama Statewide Health Coordinating Council Act",
+    "conStatuteCitation": "Ala. Code § 22-21-260 et seq.",
+    "adminAgency": "Alabama State Health Planning and Development Agency (SHPDA)",
+    "yearEnacted": 1979,
+    "lastAmended": "2023",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "High concentration in major metro areas. UAB Health System dominates Birmingham. Huntsville Hospital System controls northern Alabama markets.",
+    "dominantSystems": [
+      "UAB Health System",
+      "Huntsville Hospital Health System",
+      "Baptist Health",
+      "Infirmary Health"
+    ],
+    "averagePriceToMedicare": "289%",
+    "summary": "Alabama maintains one of the most comprehensive CON programs in the Southeast, covering hospitals, ASCs, and imaging. UAB Health System's dominance in Birmingham creates significant market concentration, with prices reaching 289% of Medicare rates.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Alabama Certificate of Need Program, Ala. Code § 22-21-260 et seq."
+      },
+      {
+        "number": 2,
+        "text": "SHPDA Annual Report on CON Applications, 2024"
+      },
+      {
+        "number": 3,
+        "text": "FTC Staff Comment to Alabama Legislature on CON Reform, 2016"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Alabama Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, UAB Hospital, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Alabama Hospital Market Share, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "abbreviation": "AK",
+    "conScore": 65,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": false,
+    "conStatuteTitle": "Alaska Certificate of Need Program",
+    "conStatuteCitation": "Alaska Stat. § 18.07.031 et seq.",
+    "adminAgency": "Alaska Department of Health",
+    "yearEnacted": 1976,
+    "lastAmended": "2021",
+    "reformStatus": "Under Review",
+    "marketConcentration": "Providence Alaska Medical Center dominates Anchorage. Geographic isolation creates natural monopolies across the state.",
+    "dominantSystems": [
+      "Providence Health & Services",
+      "Foundation Health Partners",
+      "Mat-Su Regional Medical Center"
+    ],
+    "averagePriceToMedicare": "312%",
+    "summary": "Alaska's CON program covers hospitals and ASCs but not imaging. Geographic isolation combined with CON restrictions creates extreme market concentration, with Providence Health dominating the Anchorage market and prices exceeding 312% of Medicare.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Alaska Certificate of Need Program, Alaska Stat. § 18.07.031 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Alaska Department of Health CON Review Process, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Providence Alaska Medical Center Financial Data, CMS Cost Report FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Alaska Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "FTC & DOJ Joint Statement on CON Laws, 2017"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Alaska Hospital Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "abbreviation": "CT",
+    "conScore": 82,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Connecticut Certificate of Need Act",
+    "conStatuteCitation": "Conn. Gen. Stat. § 19a-638 et seq.",
+    "adminAgency": "Connecticut Office of Health Strategy (OHS)",
+    "yearEnacted": 1973,
+    "lastAmended": "2024",
+    "reformStatus": "Partial Reform",
+    "marketConcentration": "Yale New Haven Health System controls over 40% of inpatient market. Hartford HealthCare consolidation accelerating. Two systems control majority of state capacity.",
+    "dominantSystems": [
+      "Yale New Haven Health System",
+      "Hartford HealthCare",
+      "Trinity Health Of New England",
+      "Nuvance Health"
+    ],
+    "averagePriceToMedicare": "305%",
+    "summary": "Connecticut's CON program is among the most comprehensive in New England, covering all major facility types. Yale New Haven Health and Hartford HealthCare dominate the market, with prices reaching 305% of Medicare. Recent reforms have raised thresholds but maintained core restrictions.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Connecticut Certificate of Need Act, Conn. Gen. Stat. § 19a-638 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Office of Health Strategy, CON Determination Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Yale New Haven Health System Community Health Needs Assessment, 2023"
+      },
+      {
+        "number": 4,
+        "text": "Connecticut Hospital Association Market Report, 2023"
+      },
+      {
+        "number": 5,
+        "text": "FTC Staff Comment on Connecticut CON Modernization, 2019"
+      },
+      {
+        "number": 6,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Connecticut Profile, 2020"
+      }
+    ]
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "abbreviation": "DE",
+    "conScore": 35,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Delaware Health Resources Management Act",
+    "conStatuteCitation": "Del. Code Ann. tit. 16, § 9301 et seq.",
+    "adminAgency": "Delaware Health Resources Board",
+    "yearEnacted": 1978,
+    "lastAmended": "2019",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "ChristianaCare dominates the state with two major hospitals. Bayhealth Medical Center serves southern Delaware.",
+    "dominantSystems": [
+      "ChristianaCare",
+      "Bayhealth Medical Center"
+    ],
+    "averagePriceToMedicare": null,
+    "summary": "Delaware maintains a limited CON program covering only hospital construction and expansion. ChristianaCare dominates the state's healthcare market. Detailed market analysis is pending.",
+    "deepProfile": false,
+    "profileLevel": "minimal",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Delaware Health Resources Management Act, Del. Code Ann. tit. 16, § 9301 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Delaware Health Resources Board Annual Report, 2023"
+      },
+      {
+        "number": 3,
+        "text": "ChristianaCare Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Delaware Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "AHA Annual Survey, Delaware Hospital Data, 2023"
+      },
+      {
+        "number": 6,
+        "text": "CMS Hospital Cost Report Data, Delaware Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "District of Columbia",
+    "slug": "district-of-columbia",
+    "abbreviation": "DC",
+    "conScore": 48,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Health Services Planning Program Act",
+    "conStatuteCitation": "D.C. Code § 44-401 et seq.",
+    "adminAgency": "DC State Health Planning and Development Agency",
+    "yearEnacted": 1980,
+    "lastAmended": "2020",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "MedStar Health operates multiple facilities. George Washington University Hospital and Children's National are key players in a geographically constrained market.",
+    "dominantSystems": [
+      "MedStar Health",
+      "George Washington University Hospital",
+      "Children's National Hospital"
+    ],
+    "averagePriceToMedicare": "298%",
+    "summary": "The District of Columbia maintains CON requirements for hospitals only. MedStar Health dominates the constrained urban market with multiple facilities, and prices reach 298% of Medicare rates.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Health Services Planning Program Act, D.C. Code § 44-401 et seq."
+      },
+      {
+        "number": 2,
+        "text": "DC State Health Planning and Development Agency, CON Guidelines, 2023"
+      },
+      {
+        "number": 3,
+        "text": "MedStar Health Annual Report, 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: DC Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, DC Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, District of Columbia Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "abbreviation": "GA",
+    "conScore": 75,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Georgia Health Planning Review Act",
+    "conStatuteCitation": "O.C.G.A. § 31-6-40 et seq.",
+    "adminAgency": "Georgia Department of Community Health",
+    "yearEnacted": 1979,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "Piedmont Healthcare and Wellstar Health System dominate metro Atlanta. Emory Healthcare controls academic medicine. Three systems control over 60% of inpatient beds.",
+    "dominantSystems": [
+      "Piedmont Healthcare",
+      "Wellstar Health System",
+      "Emory Healthcare",
+      "HCA Healthcare Georgia"
+    ],
+    "averagePriceToMedicare": "278%",
+    "summary": "Georgia's comprehensive CON program covers hospitals, ASCs, and imaging. Piedmont Healthcare and Wellstar dominate the Atlanta market after major consolidation. Active reform efforts have gained momentum since 2022.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Georgia Health Planning Review Act, O.C.G.A. § 31-6-40 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Georgia Department of Community Health, CON Application Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Piedmont Healthcare System Financial Report, 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Staff Comment to Georgia Legislature on CON Reform, 2019"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Georgia Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Georgia Hospital Association Market Analysis, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "abbreviation": "HI",
+    "conScore": 70,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Hawaii Certificate of Need Program",
+    "conStatuteCitation": "HRS § 323D-43 et seq.",
+    "adminAgency": "Hawaii State Health Planning and Development Agency",
+    "yearEnacted": 1975,
+    "lastAmended": "2020",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "The Queen's Health System and Hawaii Pacific Health control the vast majority of inpatient capacity across the island chain. Geographic isolation amplifies market power.",
+    "dominantSystems": [
+      "The Queen's Health System",
+      "Hawaii Pacific Health",
+      "Kaiser Permanente Hawaii"
+    ],
+    "averagePriceToMedicare": "295%",
+    "summary": "Hawaii's CON program covers all major facility types. Island geography creates natural monopolies amplified by CON restrictions. The Queen's Health System and Hawaii Pacific Health dominate with limited competitive pressure.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Hawaii Certificate of Need Program, HRS § 323D-43 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Hawaii State Health Planning and Development Agency Annual Report, 2023"
+      },
+      {
+        "number": 3,
+        "text": "Queen's Health System Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Hawaii Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, Hawaii Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Hawaii Hospital Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "abbreviation": "IL",
+    "conScore": 68,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Illinois Health Facilities Planning Act",
+    "conStatuteCitation": "20 ILCS 3960/1 et seq.",
+    "adminAgency": "Illinois Health Facilities and Services Review Board",
+    "yearEnacted": 1974,
+    "lastAmended": "2023",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Advocate Aurora Health (now Advocate Health) and CommonSpirit Health dominate Chicago metro. Northwestern Medicine and Rush University System control academic markets.",
+    "dominantSystems": [
+      "Advocate Health",
+      "CommonSpirit Health",
+      "Northwestern Medicine",
+      "Rush University System for Health"
+    ],
+    "averagePriceToMedicare": "282%",
+    "summary": "Illinois has a comprehensive CON program covering hospitals, ASCs, and imaging, administered by the Health Facilities and Services Review Board. Major health system consolidation in Chicago has created significant market concentration, with four systems controlling majority share.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Illinois Health Facilities Planning Act, 20 ILCS 3960/1 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Illinois Health Facilities and Services Review Board Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Advocate Health Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Investigation of Advocate-NorthShore Merger, 2022"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Illinois Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Illinois Hospital Association Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "abbreviation": "IA",
+    "conScore": 45,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Iowa Certificate of Need Program",
+    "conStatuteCitation": "Iowa Code § 135.61 et seq.",
+    "adminAgency": "Iowa Department of Health and Human Services",
+    "yearEnacted": 1977,
+    "lastAmended": "2022",
+    "reformStatus": "Active",
+    "marketConcentration": "UnityPoint Health and MercyOne control majority of inpatient capacity. University of Iowa Hospitals dominates academic care.",
+    "dominantSystems": [
+      "UnityPoint Health",
+      "MercyOne",
+      "University of Iowa Hospitals and Clinics"
+    ],
+    "averagePriceToMedicare": "248%",
+    "summary": "Iowa maintains CON requirements only for hospitals. UnityPoint Health and MercyOne dominate the market. Active reform legislation has been introduced in recent sessions.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Iowa Certificate of Need Program, Iowa Code § 135.61 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Iowa Department of Health and Human Services, CON Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "UnityPoint Health Financial Report, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Iowa Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, Iowa Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Iowa Hospital Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "abbreviation": "KY",
+    "conScore": 100,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Kentucky Certificate of Need and Licensure Act",
+    "conStatuteCitation": "KRS § 216B.010 et seq.",
+    "adminAgency": "Kentucky Cabinet for Health and Family Services",
+    "yearEnacted": 1972,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "Three systems — Norton Healthcare, Baptist Health, and CommonSpirit — control 100% of Louisville's inpatient market. Norton alone operates 5 hospitals in metro Louisville with $4.2B in annual revenue.",
+    "dominantSystems": [
+      "Norton Healthcare",
+      "Baptist Health",
+      "CommonSpirit Health",
+      "Appalachian Regional Healthcare",
+      "UK HealthCare"
+    ],
+    "averagePriceToMedicare": "354%",
+    "summary": "Kentucky has the most restrictive CON program in the nation, covering hospitals, ASCs, and imaging with no dollar threshold exemptions. Three systems control 100% of Louisville's inpatient market, and prices reach 354% of Medicare rates — the highest in any CON state profiled.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Kentucky Certificate of Need and Licensure Act, KRS § 216B.010 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Kentucky Cabinet for Health and Family Services, CON Application Records, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Norton Healthcare Financial Statements and Community Benefit Report, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC & DOJ Joint Comment on Kentucky CON Laws, 2018"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Kentucky Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "RAND Corporation, Hospital Pricing in CON vs Non-CON States, 2021"
+      },
+      {
+        "number": 7,
+        "text": "Kentucky Hospital Association Market Share Data, 2023"
+      },
+      {
+        "number": 8,
+        "text": "CMS Hospital Cost Report Data, Louisville Metro Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "abbreviation": "ME",
+    "conScore": 42,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": false,
+    "conStatuteTitle": "Maine Certificate of Need Act",
+    "conStatuteCitation": "Me. Rev. Stat. Ann. tit. 22, § 329 et seq.",
+    "adminAgency": "Maine Department of Health and Human Services",
+    "yearEnacted": 1978,
+    "lastAmended": "2021",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "MaineHealth dominates southern Maine. Northern Light Health controls northern and eastern regions.",
+    "dominantSystems": [
+      "MaineHealth",
+      "Northern Light Health"
+    ],
+    "averagePriceToMedicare": null,
+    "summary": "Maine maintains CON requirements for hospitals and ASCs. MaineHealth and Northern Light Health dominate a rural market. Detailed market analysis is pending.",
+    "deepProfile": false,
+    "profileLevel": "minimal",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Maine Certificate of Need Act, Me. Rev. Stat. Ann. tit. 22, § 329 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Maine DHHS Certificate of Need Program Data, 2023"
+      },
+      {
+        "number": 3,
+        "text": "MaineHealth System Financial Report, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Maine Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "AHA Annual Survey, Maine Hospital Data, 2023"
+      },
+      {
+        "number": 6,
+        "text": "CMS Hospital Cost Report Data, Maine Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "abbreviation": "MD",
+    "conScore": 62,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Maryland Health Care Facilities Act",
+    "conStatuteCitation": "Md. Code Ann., Health-Gen. § 19-120 et seq.",
+    "adminAgency": "Maryland Health Care Commission",
+    "yearEnacted": 1968,
+    "lastAmended": "2024",
+    "reformStatus": "Partial Reform",
+    "marketConcentration": "Johns Hopkins Health System and University of Maryland Medical System dominate. All-payer rate setting creates unique market dynamics alongside CON.",
+    "dominantSystems": [
+      "Johns Hopkins Health System",
+      "University of Maryland Medical System",
+      "MedStar Health",
+      "LifeBridge Health"
+    ],
+    "averagePriceToMedicare": "265%",
+    "summary": "Maryland operates a unique hybrid: CON laws combined with the nation's only all-payer hospital rate-setting system. Johns Hopkins and University of Maryland Medical System dominate the market. Partial reforms have modernized thresholds.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Maryland Health Care Facilities Act, Md. Code Ann., Health-Gen. § 19-120 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Maryland Health Care Commission, CON Program Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Johns Hopkins Health System Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Maryland All-Payer Model Performance Report, CMS, 2023"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Maryland Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Maryland Hospital Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "abbreviation": "MA",
+    "conScore": 55,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": false,
+    "conStatuteTitle": "Massachusetts Determination of Need Program",
+    "conStatuteCitation": "M.G.L. c. 111, § 25B-25G",
+    "adminAgency": "Massachusetts Department of Public Health",
+    "yearEnacted": 1972,
+    "lastAmended": "2024",
+    "reformStatus": "Partial Reform",
+    "marketConcentration": "Mass General Brigham dominates eastern Massachusetts with $18B+ revenue. Beth Israel Lahey Health and UMass Memorial compete for remaining share.",
+    "dominantSystems": [
+      "Mass General Brigham",
+      "Beth Israel Lahey Health",
+      "UMass Memorial Health",
+      "Tufts Medicine"
+    ],
+    "averagePriceToMedicare": "338%",
+    "summary": "Massachusetts Determination of Need program covers hospitals and ASCs. Mass General Brigham dominates with over $18 billion in revenue, creating one of the most concentrated healthcare markets in the nation. Prices reach 338% of Medicare.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Massachusetts Determination of Need Program, M.G.L. c. 111, § 25B-25G"
+      },
+      {
+        "number": 2,
+        "text": "Mass DPH Determination of Need Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Mass General Brigham Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Health Policy Commission Annual Cost Trends Report, 2023"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Massachusetts Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Massachusetts Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "abbreviation": "MI",
+    "conScore": 60,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Michigan Certificate of Need Act",
+    "conStatuteCitation": "MCL § 333.22201 et seq.",
+    "adminAgency": "Michigan Department of Health and Human Services",
+    "yearEnacted": 1972,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "Beaumont/Spectrum Health (now Corewell Health) and Trinity Health dominate. Henry Ford Health System controls Detroit market.",
+    "dominantSystems": [
+      "Corewell Health",
+      "Trinity Health Michigan",
+      "Henry Ford Health",
+      "Ascension Michigan"
+    ],
+    "averagePriceToMedicare": "275%",
+    "summary": "Michigan maintains comprehensive CON covering hospitals, ASCs, and imaging. Corewell Health (formed from Beaumont-Spectrum merger) and Trinity Health dominate the market. Active reform efforts continue in the legislature.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Michigan Certificate of Need Act, MCL § 333.22201 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Michigan DHHS CON Commission Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Corewell Health Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Staff Comment on Michigan CON Reform, 2020"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Michigan Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Michigan Health & Hospital Association Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "abbreviation": "MN",
+    "conScore": 30,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Minnesota Hospital Construction Moratorium",
+    "conStatuteCitation": "Minn. Stat. § 144.551",
+    "adminAgency": "Minnesota Department of Health",
+    "yearEnacted": 1984,
+    "lastAmended": "2023",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Mayo Clinic dominates statewide. Allina Health and Fairview/Sanford control Twin Cities. Hospital moratorium since 1984 freezes new construction.",
+    "dominantSystems": [
+      "Mayo Clinic Health System",
+      "Allina Health",
+      "Fairview Health Services",
+      "Sanford Health",
+      "CentraCare"
+    ],
+    "averagePriceToMedicare": "268%",
+    "summary": "Minnesota does not have a traditional CON program but maintains a hospital construction moratorium since 1984 that functions similarly. Mayo Clinic dominates, and the moratorium has effectively frozen market entry for four decades.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Minnesota Hospital Construction Moratorium, Minn. Stat. § 144.551"
+      },
+      {
+        "number": 2,
+        "text": "Minnesota Department of Health Moratorium Exception Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Mayo Clinic Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Minnesota Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, Minnesota Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Minnesota Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "abbreviation": "MS",
+    "conScore": 80,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Mississippi Certificate of Need Act",
+    "conStatuteCitation": "Miss. Code Ann. § 41-7-171 et seq.",
+    "adminAgency": "Mississippi State Department of Health",
+    "yearEnacted": 1979,
+    "lastAmended": "2022",
+    "reformStatus": "Active",
+    "marketConcentration": "Baptist Memorial Health Care and University of Mississippi Medical Center dominate. Rural hospital closures accelerating despite CON protections.",
+    "dominantSystems": [
+      "Baptist Memorial Health Care",
+      "University of Mississippi Medical Center",
+      "Memorial Health System",
+      "Singing River Health System"
+    ],
+    "averagePriceToMedicare": "245%",
+    "summary": "Mississippi has one of the most restrictive CON programs in the nation, covering hospitals, ASCs, and imaging with low dollar thresholds. Despite claims that CON protects rural hospitals, Mississippi has experienced significant rural hospital closures.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Mississippi Certificate of Need Act, Miss. Code Ann. § 41-7-171 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Mississippi Department of Health CON Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "UMMC Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Staff Comment on Mississippi CON Laws, 2020"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Mississippi Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Mississippi Hospital Association Market Analysis, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "abbreviation": "MO",
+    "conScore": 72,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": false,
+    "conStatuteTitle": "Missouri Certificate of Need Law",
+    "conStatuteCitation": "Mo. Rev. Stat. § 197.300 et seq.",
+    "adminAgency": "Missouri Health Facilities Review Committee",
+    "yearEnacted": 1979,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "BJC HealthCare and SSM Health dominate St. Louis. HCA Healthcare and Mercy control Kansas City and Springfield. Four systems hold over 70% of inpatient beds.",
+    "dominantSystems": [
+      "BJC HealthCare",
+      "SSM Health",
+      "HCA Healthcare",
+      "Mercy",
+      "CoxHealth"
+    ],
+    "averagePriceToMedicare": "292%",
+    "summary": "Missouri requires CON for hospitals and ASCs but not imaging. BJC HealthCare dominates St. Louis with $7.5B+ in revenue. The four largest systems control over 70% of inpatient capacity, and prices reach 292% of Medicare. Active reform efforts have gained bipartisan support.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Missouri Certificate of Need Law, Mo. Rev. Stat. § 197.300 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Missouri Health Facilities Review Committee Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "BJC HealthCare Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC & DOJ Joint Comment on Missouri CON Laws, 2017"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Missouri Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Missouri Hospital Association Market Share Data, 2023"
+      },
+      {
+        "number": 7,
+        "text": "CMS Hospital Cost Report Data, St. Louis Metro Facilities, FY 2023"
+      },
+      {
+        "number": 8,
+        "text": "Show-Me Institute, The Case Against CON in Missouri, 2021"
+      }
+    ]
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "abbreviation": "NV",
+    "conScore": 38,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Nevada Certificate of Need Program",
+    "conStatuteCitation": "NRS § 439A.100 et seq.",
+    "adminAgency": "Nevada Division of Public and Behavioral Health",
+    "yearEnacted": 1979,
+    "lastAmended": "2019",
+    "reformStatus": "Under Review",
+    "marketConcentration": "HCA Healthcare dominates Las Vegas through Sunrise Health System. Renown Health controls Reno market.",
+    "dominantSystems": [
+      "HCA Healthcare (Sunrise)",
+      "Renown Health",
+      "Valley Health System"
+    ],
+    "averagePriceToMedicare": null,
+    "summary": "Nevada maintains limited CON requirements covering only hospitals. HCA Healthcare dominates Las Vegas through its Sunrise Health System. Detailed market analysis is pending.",
+    "deepProfile": false,
+    "profileLevel": "minimal",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Nevada Certificate of Need Program, NRS § 439A.100 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Nevada DPBH Health Facility Data, 2023"
+      },
+      {
+        "number": 3,
+        "text": "HCA Healthcare Nevada Operations Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Nevada Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "AHA Annual Survey, Nevada Hospital Data, 2023"
+      },
+      {
+        "number": 6,
+        "text": "CMS Hospital Cost Report Data, Nevada Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "abbreviation": "NJ",
+    "conScore": 58,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "New Jersey Health Care Facilities Planning Act",
+    "conStatuteCitation": "N.J.S.A. § 26:2H-1 et seq.",
+    "adminAgency": "New Jersey Department of Health",
+    "yearEnacted": 1971,
+    "lastAmended": "2023",
+    "reformStatus": "Partial Reform",
+    "marketConcentration": "RWJBarnabas Health and Hackensack Meridian Health control over 50% of the market following major consolidation waves.",
+    "dominantSystems": [
+      "RWJBarnabas Health",
+      "Hackensack Meridian Health",
+      "Atlantic Health System",
+      "Virtua Health"
+    ],
+    "averagePriceToMedicare": "301%",
+    "summary": "New Jersey maintains CON for hospitals, ASCs, and imaging. RWJBarnabas Health and Hackensack Meridian Health dominate after significant consolidation. Prices exceed 301% of Medicare rates.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "NJ Health Care Facilities Planning Act, N.J.S.A. § 26:2H-1 et seq."
+      },
+      {
+        "number": 2,
+        "text": "NJ Department of Health CON Application Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "RWJBarnabas Health Financial Report, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Hackensack Meridian Health Financial Report, FY 2023"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: New Jersey Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, New Jersey Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "abbreviation": "NY",
+    "conScore": 88,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "New York Public Health Law Article 28",
+    "conStatuteCitation": "N.Y. Pub. Health Law § 2801-a et seq.",
+    "adminAgency": "New York State Department of Health",
+    "yearEnacted": 1964,
+    "lastAmended": "2024",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Northwell Health ($17B+ revenue), NYU Langone, Mount Sinai, and NewYork-Presbyterian control the metro NYC market. Four systems dominate a $90B+ healthcare economy.",
+    "dominantSystems": [
+      "Northwell Health",
+      "NYU Langone Health",
+      "Mount Sinai Health System",
+      "NewYork-Presbyterian"
+    ],
+    "averagePriceToMedicare": "345%",
+    "summary": "New York has one of the oldest and most comprehensive CON programs in the nation, covering hospitals, ASCs, and imaging. Four mega-systems — Northwell, NYU Langone, Mount Sinai, and NewYork-Presbyterian — control the majority of the $90B+ metro healthcare market.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "New York Public Health Law Article 28, N.Y. Pub. Health Law § 2801-a et seq."
+      },
+      {
+        "number": 2,
+        "text": "NYS Department of Health CON Tracking System, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Northwell Health Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "NYU Langone Health Annual Report, 2023"
+      },
+      {
+        "number": 5,
+        "text": "FTC & DOJ Competition in Healthcare Markets, New York Analysis, 2022"
+      },
+      {
+        "number": 6,
+        "text": "Mercatus Center, Certificate-of-Need Laws: New York Profile, 2020"
+      },
+      {
+        "number": 7,
+        "text": "Greater New York Hospital Association Market Data, 2023"
+      },
+      {
+        "number": 8,
+        "text": "CMS Hospital Cost Report Data, NYC Metro Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "abbreviation": "NC",
+    "conScore": 77,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "North Carolina Certificate of Need Law",
+    "conStatuteCitation": "N.C. Gen. Stat. § 131E-175 et seq.",
+    "adminAgency": "North Carolina Department of Health and Human Services",
+    "yearEnacted": 1978,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "Atrium Health (now Advocate Health) and Novant Health dominate Charlotte. UNC Health and Duke Health control the Triangle. Four systems hold majority market share.",
+    "dominantSystems": [
+      "Advocate Health (Atrium)",
+      "Novant Health",
+      "UNC Health",
+      "Duke Health"
+    ],
+    "averagePriceToMedicare": "285%",
+    "summary": "North Carolina maintains comprehensive CON covering hospitals, ASCs, and imaging. Atrium Health and Novant Health dominate Charlotte while UNC and Duke control the Triangle. Active reform legislation has gained significant momentum.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "North Carolina Certificate of Need Law, N.C. Gen. Stat. § 131E-175 et seq."
+      },
+      {
+        "number": 2,
+        "text": "NC DHHS CON Section Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Atrium Health/Advocate Health Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Staff Comment on North Carolina CON Reform, 2021"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: North Carolina Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "NC Healthcare Association Market Analysis, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "abbreviation": "OR",
+    "conScore": 40,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": false,
+    "conStatuteTitle": "Oregon Certificate of Need Program",
+    "conStatuteCitation": "ORS § 442.315 et seq.",
+    "adminAgency": "Oregon Health Authority",
+    "yearEnacted": 1971,
+    "lastAmended": "2022",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Providence Health dominates Portland metro. OHSU controls academic medicine. Legacy Health merged with OHSU in 2024.",
+    "dominantSystems": [
+      "Providence Health & Services",
+      "OHSU Health",
+      "PeaceHealth",
+      "St. Charles Health System"
+    ],
+    "averagePriceToMedicare": "262%",
+    "summary": "Oregon maintains CON only for hospitals. Providence Health dominates the Portland market. The OHSU-Legacy Health merger in 2024 further consolidated the academic medicine market.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Oregon Certificate of Need Program, ORS § 442.315 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Oregon Health Authority CON Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Providence Health & Services Oregon Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Oregon Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, Oregon Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "Oregon Association of Hospitals & Health Systems Market Report, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "abbreviation": "RI",
+    "conScore": 73,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Rhode Island Health Care Facility Licensing and Regulation",
+    "conStatuteCitation": "R.I. Gen. Laws § 23-15-3 et seq.",
+    "adminAgency": "Rhode Island Department of Health",
+    "yearEnacted": 1968,
+    "lastAmended": "2022",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Lifespan and Care New England (now merged as Brown University Health) control virtually all inpatient capacity in the state.",
+    "dominantSystems": [
+      "Brown University Health (Lifespan + Care New England)",
+      "CharterCARE Health Partners"
+    ],
+    "averagePriceToMedicare": "298%",
+    "summary": "Rhode Island has comprehensive CON covering hospitals, ASCs, and imaging. The merger of Lifespan and Care New England into Brown University Health created a near-monopoly, controlling over 80% of inpatient beds in the state.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "RI Health Care Facility Licensing, R.I. Gen. Laws § 23-15-3 et seq."
+      },
+      {
+        "number": 2,
+        "text": "RI Department of Health CON Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Brown University Health Financial Report, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Investigation of Lifespan-CNE Merger, 2022"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Rhode Island Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "AHA Annual Survey, Rhode Island Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "abbreviation": "SC",
+    "conScore": 79,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "South Carolina Certificate of Need Act",
+    "conStatuteCitation": "S.C. Code Ann. § 44-7-110 et seq.",
+    "adminAgency": "South Carolina Department of Health and Environmental Control",
+    "yearEnacted": 1971,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "Prisma Health and MUSC Health dominate the state. Prisma controls the Upstate and Midlands. Roper St. Francis and Tidelands Health serve the coast.",
+    "dominantSystems": [
+      "Prisma Health",
+      "MUSC Health",
+      "Roper St. Francis Healthcare",
+      "Tidelands Health"
+    ],
+    "averagePriceToMedicare": "271%",
+    "summary": "South Carolina maintains comprehensive CON covering hospitals, ASCs, and imaging. Prisma Health dominates the state after merger. Active reform legislation has been introduced with bipartisan support.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "South Carolina Certificate of Need Act, S.C. Code Ann. § 44-7-110 et seq."
+      },
+      {
+        "number": 2,
+        "text": "SC DHEC CON Program Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Prisma Health Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC Staff Comment on SC CON Reform, 2018"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: South Carolina Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "SC Hospital Association Market Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "abbreviation": "TN",
+    "conScore": 76,
+    "severityLabel": "Highly Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Tennessee Health Services and Planning Act",
+    "conStatuteCitation": "Tenn. Code Ann. § 68-11-1601 et seq.",
+    "adminAgency": "Tennessee Health Services and Development Agency",
+    "yearEnacted": 1973,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "HCA Healthcare (headquartered in Nashville) dominates statewide with 20+ hospitals. Ascension Saint Thomas, Ballad Health, and Erlanger Health System fill regional roles.",
+    "dominantSystems": [
+      "HCA Healthcare",
+      "Ascension Saint Thomas",
+      "Ballad Health",
+      "Erlanger Health System",
+      "Vanderbilt University Medical Center"
+    ],
+    "averagePriceToMedicare": "288%",
+    "summary": "Tennessee has comprehensive CON covering hospitals, ASCs, and imaging. HCA Healthcare, headquartered in Nashville, dominates the state with over 20 hospitals. Active reform legislation has gained momentum with support from physician advocacy groups.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Tennessee Health Services and Planning Act, Tenn. Code Ann. § 68-11-1601 et seq."
+      },
+      {
+        "number": 2,
+        "text": "TN HSDA CON Application Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "HCA Healthcare Tennessee Operations Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC & DOJ Joint Comment on Tennessee CON, 2016"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Tennessee Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Tennessee Hospital Association Market Analysis, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "abbreviation": "VT",
+    "conScore": 90,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": false,
+    "imaging": true,
+    "conStatuteTitle": "Vermont Certificate of Need Program",
+    "conStatuteCitation": "18 V.S.A. § 9431 et seq.",
+    "adminAgency": "Vermont Green Mountain Care Board",
+    "yearEnacted": 1979,
+    "lastAmended": "2024",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "UVM Health Network controls virtually all hospital care in the state. No meaningful competition exists. The Network operates 6 hospitals including UVM Medical Center, the only academic medical center.",
+    "dominantSystems": [
+      "UVM Health Network",
+      "Dartmouth Health (border region)"
+    ],
+    "averagePriceToMedicare": "315%",
+    "summary": "Vermont has one of the most restrictive CON programs in the nation, administered by the Green Mountain Care Board. UVM Health Network operates as a near-monopoly, controlling virtually all hospital capacity in the state with no meaningful competition. Prices reach 315% of Medicare rates.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Vermont Certificate of Need Program, 18 V.S.A. § 9431 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Green Mountain Care Board Annual Report, 2024"
+      },
+      {
+        "number": 3,
+        "text": "UVM Health Network Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Vermont Health Care Expenditure Analysis, GMCB, 2023"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Vermont Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "FTC Staff Comment on Vermont Health Care Market, 2019"
+      },
+      {
+        "number": 7,
+        "text": "CMS Hospital Cost Report Data, Vermont Facilities, FY 2023"
+      },
+      {
+        "number": 8,
+        "text": "AHA Annual Survey, Vermont Hospital Data, 2023"
+      }
+    ]
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "abbreviation": "VA",
+    "conScore": 95,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "Virginia Medical Care Facilities Certificate of Public Need",
+    "conStatuteCitation": "Va. Code Ann. § 32.1-102.1 et seq.",
+    "adminAgency": "Virginia Department of Health",
+    "yearEnacted": 1973,
+    "lastAmended": "2024",
+    "reformStatus": "Active",
+    "marketConcentration": "Sentara Healthcare ($4.79B revenue) dominates Hampton Roads and expanding statewide. Inova Health System controls Northern Virginia. Five systems control $16B+ in combined revenue.",
+    "dominantSystems": [
+      "Sentara Healthcare",
+      "Inova Health System",
+      "Ballad Health",
+      "VCU Health System",
+      "Carilion Clinic"
+    ],
+    "averagePriceToMedicare": "310%",
+    "summary": "Virginia has one of the most restrictive CON programs in the nation, covering hospitals, ASCs, and imaging. Sentara Healthcare dominates with $4.79B in revenue. Five systems control over $16B in combined revenue, with prices reaching 310% of Medicare rates.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Virginia Medical Care Facilities Certificate of Public Need, Va. Code Ann. § 32.1-102.1 et seq."
+      },
+      {
+        "number": 2,
+        "text": "Virginia Department of Health COPN Program Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Sentara Healthcare Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "FTC & DOJ Joint Comment on Virginia COPN Laws, 2017"
+      },
+      {
+        "number": 5,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Virginia Profile, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Virginia Hospital & Healthcare Association Market Data, 2023"
+      },
+      {
+        "number": 7,
+        "text": "Inova Health System Annual Report, FY 2023"
+      },
+      {
+        "number": 8,
+        "text": "CMS Hospital Cost Report Data, Virginia Facilities, FY 2023"
+      }
+    ]
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "abbreviation": "WA",
+    "conScore": 52,
+    "severityLabel": "Moderate",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": false,
+    "conStatuteTitle": "Washington Certificate of Need Program",
+    "conStatuteCitation": "RCW § 70.38 et seq.",
+    "adminAgency": "Washington State Department of Health",
+    "yearEnacted": 1971,
+    "lastAmended": "2023",
+    "reformStatus": "No Active Reform",
+    "marketConcentration": "Providence Swedish dominates Puget Sound. MultiCare Health System and Virginia Mason Franciscan Health compete for remaining share.",
+    "dominantSystems": [
+      "Providence Swedish",
+      "MultiCare Health System",
+      "Virginia Mason Franciscan Health",
+      "PeaceHealth"
+    ],
+    "averagePriceToMedicare": "272%",
+    "summary": "Washington maintains CON for hospitals and ASCs but not imaging. Providence Swedish dominates the Puget Sound market after acquiring Swedish Health Services. Consolidation continues with limited reform pressure.",
+    "deepProfile": false,
+    "profileLevel": "standard",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "Washington Certificate of Need Program, RCW § 70.38 et seq."
+      },
+      {
+        "number": 2,
+        "text": "WA DOH Certificate of Need Program Data, 2024"
+      },
+      {
+        "number": 3,
+        "text": "Providence Swedish Financial Data, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Mercatus Center, Certificate-of-Need Laws: Washington Profile, 2020"
+      },
+      {
+        "number": 5,
+        "text": "CMS Hospital Cost Report Data, Washington Facilities, FY 2023"
+      },
+      {
+        "number": 6,
+        "text": "WA State Hospital Association Market Analysis, 2023"
+      }
+    ]
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "abbreviation": "WV",
+    "conScore": 85,
+    "severityLabel": "Most Restrictive",
+    "hospitals": true,
+    "ascs": true,
+    "imaging": true,
+    "conStatuteTitle": "West Virginia Health Care Authority Certificate of Need",
+    "conStatuteCitation": "W. Va. Code § 16-2D-1 et seq.",
+    "adminAgency": "West Virginia Health Care Authority",
+    "yearEnacted": 1977,
+    "lastAmended": "2023",
+    "reformStatus": "Active",
+    "marketConcentration": "WVU Medicine dominates with 20+ hospitals and clinics. CAMC/Vandalia Health controls Charleston market. Two systems hold over 70% of inpatient capacity in a state with severe rural access challenges.",
+    "dominantSystems": [
+      "WVU Medicine",
+      "Vandalia Health (formerly CAMC Health System)",
+      "Mon Health System"
+    ],
+    "averagePriceToMedicare": "265%",
+    "summary": "West Virginia maintains comprehensive CON covering hospitals, ASCs, and imaging. WVU Medicine and Vandalia Health (formerly CAMC) control over 70% of inpatient capacity. Despite CON proponents claiming rural protection, the state has experienced significant rural hospital closures and access challenges.",
+    "deepProfile": true,
+    "profileLevel": "deep",
+    "dateModified": "2026-04-02",
+    "citations": [
+      {
+        "number": 1,
+        "text": "West Virginia Health Care Authority CON, W. Va. Code § 16-2D-1 et seq."
+      },
+      {
+        "number": 2,
+        "text": "WV Health Care Authority CON Application Records, 2024"
+      },
+      {
+        "number": 3,
+        "text": "WVU Medicine Financial Statements, FY 2023"
+      },
+      {
+        "number": 4,
+        "text": "Vandalia Health System Financial Data, FY 2023"
+      },
+      {
+        "number": 5,
+        "text": "FTC Staff Comment on WV CON Laws, 2020"
+      },
+      {
+        "number": 6,
+        "text": "Mercatus Center, Certificate-of-Need Laws: West Virginia Profile, 2020"
+      },
+      {
+        "number": 7,
+        "text": "WV Hospital Association Rural Health Report, 2023"
+      },
+      {
+        "number": 8,
+        "text": "CMS Hospital Cost Report Data, WV Facilities, FY 2023"
+      }
+    ]
+  }
+]

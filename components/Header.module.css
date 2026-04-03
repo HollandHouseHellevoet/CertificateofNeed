@@ -1,0 +1,179 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--navy);
+  border-bottom: 1px solid var(--border);
+  height: 68px;
+  display: flex;
+  align-items: center;
+}
+
+.inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* ── Wordmark ── */
+.wordmark {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.wordmarkTitle {
+  font-family: var(--font-cormorant);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--cream);
+  line-height: 1.15;
+}
+
+.wordmarkSub {
+  font-family: var(--font-source-sans);
+  font-weight: 600;
+  font-size: 8.5px;
+  color: var(--orange);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+/* ── Nav ── */
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-left: auto;
+}
+
+.navLink {
+  font-family: var(--font-source-sans);
+  font-weight: 600;
+  font-size: 12.5px;
+  color: var(--cream-60);
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.navLink:hover {
+  color: var(--cream);
+}
+
+/* ── Subscribe ── */
+.subscribe {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--orange);
+  color: #fff;
+  font-family: var(--font-source-sans);
+  font-weight: 600;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  padding: 8px 20px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  white-space: nowrap;
+}
+
+.subscribe:hover {
+  background: var(--orange-hover);
+}
+
+/* ── Hamburger (hidden on desktop) ── */
+.navCheckbox {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 8px;
+}
+
+.hamburgerBar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--cream);
+  border-radius: 1px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+/* ── Mobile ── */
+@media (max-width: 900px) {
+  .header {
+    height: 56px;
+  }
+
+  .inner {
+    padding: 0 24px;
+  }
+
+  .hamburger {
+    display: flex;
+    order: 2;
+  }
+
+  .nav {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    background: var(--navy);
+    border-bottom: 1px solid var(--border);
+    padding: 8px 24px 16px;
+    margin-left: 0;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    order: 4;
+  }
+
+  .nav .navLink {
+    padding: 10px 0;
+    font-size: 13.5px;
+  }
+
+  .subscribe {
+    order: 3;
+  }
+
+  /* When checkbox is checked, open the menu */
+  .navCheckbox:checked ~ .nav {
+    max-height: 300px;
+    opacity: 1;
+  }
+
+  /* Hamburger → X animation */
+  .navCheckbox:checked ~ .hamburger .hamburgerBar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .navCheckbox:checked ~ .hamburger .hamburgerBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navCheckbox:checked ~ .hamburger .hamburgerBar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}

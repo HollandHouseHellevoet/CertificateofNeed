@@ -1,0 +1,62 @@
+:root {
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-source-sans: 'Source Sans Pro', system-ui, -apple-system, sans-serif;
+  --font-source-code: 'Source Code Pro', monospace;
+
+  --deep-navy: #070b11;
+  --navy: #141b24;
+  --card-bg: #0f1a24;
+  --orange: #cf5604;
+  --orange-hover: #e07a3a;
+  --orange-light: #e27641;
+  --cream: #f8f5ef;
+  --cream-80: rgba(248,245,239,0.80);
+  --cream-60: rgba(248,245,239,0.60);
+  --cream-40: rgba(248,245,239,0.40);
+  --cream-25: rgba(248,245,239,0.25);
+  --cream-10: rgba(248,245,239,0.10);
+  --border: rgba(248,245,239,0.07);
+
+  --score-critical: #c0392b;
+  --score-high: #c0392b;
+  --score-moderate: #8a6a1a;
+  --score-low: #2e6b3e;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-12: 96px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--deep-navy);
+  color: var(--cream);
+  font-family: var(--font-source-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

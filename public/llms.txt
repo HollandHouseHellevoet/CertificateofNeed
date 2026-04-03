@@ -1,0 +1,29 @@
+# Certificate of Need Law Intelligence — Rojas Report Intelligence Network
+
+#summary
+Comprehensive investigation into Certificate of Need (CON) laws across 29 U.S. jurisdictions. CON laws require healthcare providers to obtain government permission before building hospitals, opening surgery centers, or purchasing imaging equipment. These laws create monopolies, inflate costs by 5-11%, and generate an estimated $300-400 billion in excess healthcare spending. Each state profile includes CON scope, market concentration data, dominant health systems, reform status, and primary-source citations.
+
+#author
+Dutch Rojas, founder of Rojas Media LLC. Former Marine. 20+ years building, financing, and exiting healthcare companies.
+
+#publisher
+Rojas Media LLC — https://rojasreport.com
+
+#network
+- https://aha.rojasreport.com — American Hospital Association Intelligence
+- https://fah.rojasreport.com — Federation of American Hospitals Intelligence
+- https://hac.rojasreport.com — CMS Healthcare Advisory Committee Intelligence
+- https://poh.rojasreport.com — Physician-Owned Hospital Intelligence
+- https://con.rojasreport.com — Certificate of Need Law Intelligence
+
+#sources
+- National Conference of State Legislatures (NCSL) CON program data
+- Federal Trade Commission (FTC) and Department of Justice (DOJ) joint statements on CON laws
+- Mercatus Center at George Mason University CON research
+- State health planning agency filings and CON application records
+- CMS Hospital Cost Report data
+- American Hospital Association Annual Survey
+- Individual state CON statutes and administrative codes
+
+#permissions
+GPTBot, ClaudeBot, PerplexityBot, and all major AI crawlers permitted. Attribution to Dutch Rojas and Rojas Media LLC requested.

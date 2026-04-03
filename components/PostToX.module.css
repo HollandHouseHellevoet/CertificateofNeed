@@ -1,0 +1,29 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  min-height: 44px;
+  border-radius: 2px;
+  background: transparent;
+  border: 1px solid rgba(248, 245, 239, 0.20);
+  color: var(--cream-60);
+  font-family: var(--font-source-sans);
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 150ms ease, color 150ms ease;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.button:hover {
+  border-color: rgba(248, 245, 239, 0.5);
+  color: var(--cream);
+}
+
+.icon {
+  flex-shrink: 0;
+}

@@ -1,0 +1,474 @@
+/* ─── Page wrapper ─── */
+.page {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  color: var(--cream);
+}
+
+/* ─── Shared section ─── */
+.section {
+  padding: 64px 40px;
+}
+
+.sectionTitle {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--cream);
+  margin: 12px 0 8px;
+  line-height: 1.2;
+}
+
+.sectionDesc {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 14px;
+  color: var(--cream-60);
+  line-height: 1.6;
+  margin: 0 0 20px;
+  max-width: 640px;
+}
+
+.sectionBody {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--cream-60);
+  line-height: 1.75;
+  max-width: 720px;
+  margin: 0 0 28px;
+}
+
+.rule {
+  width: 48px;
+  height: 2px;
+  background: var(--orange);
+  margin-bottom: 32px;
+}
+
+/* ─── Tag label ─── */
+.tag {
+  display: inline-block;
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+  padding: 4px 12px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+/* ─── 1. Hero ─── */
+.hero {
+  padding: 80px 40px 72px;
+  text-align: left;
+}
+
+.heroTitle {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.15;
+  color: var(--cream);
+  margin: 0 0 20px;
+  max-width: 780px;
+}
+
+.heroAccent {
+  color: var(--orange);
+}
+
+.heroBody {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: var(--cream-60);
+  line-height: 1.75;
+  max-width: 720px;
+  margin: 0 0 16px;
+}
+
+.heroMeta {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+  margin: 0 0 28px;
+}
+
+.heroCtas {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ─── Buttons ─── */
+.primaryBtn {
+  display: inline-block;
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cream);
+  background: var(--orange);
+  padding: 12px 28px;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.primaryBtn:hover {
+  background: var(--orange-hover);
+}
+
+.ghostBtn {
+  display: inline-block;
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--orange);
+  background: transparent;
+  border: 1px solid var(--orange);
+  padding: 12px 28px;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ghostBtn:hover {
+  background: var(--orange);
+  color: var(--cream);
+}
+
+/* ─── 2. Map legend ─── */
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 12px;
+  color: var(--cream-60);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legendDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ─── 3. Key-number cards ─── */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.statCard {
+  background: var(--card-bg);
+  border-left: 3px solid var(--orange);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statNumber {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--orange);
+  line-height: 1.1;
+}
+
+.statLabel {
+  font-family: var(--font-source-sans), sans-serif;
+  font-weight: 700;
+  font-size: 10.5px;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+}
+
+.statDesc {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 13.5px;
+  color: var(--cream-60);
+  line-height: 1.65;
+  margin: 4px 0 0;
+}
+
+/* ─── 4. Thesis ─── */
+.thesis {
+  padding: 48px 40px 56px;
+  display: flex;
+  justify-content: center;
+}
+
+.thesisText {
+  font-family: var(--font-source-sans), sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: var(--cream-60);
+  line-height: 1.75;
+  max-width: 720px;
+  text-align: center;
+  margin: 0;
+}
+
+/* ─── 5. State Table ─── */
+.tableWrap {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-source-sans), sans-serif;
+}
+
+.th {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.tr:nth-child(even) {
+  background: rgba(248, 245, 239, 0.015);
+}
+
+.td {
+  font-size: 14px;
+  color: var(--cream-80);
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+.stateName {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--cream);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.stateName:hover {
+  color: var(--orange);
+}
+
+.scorePip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--cream);
+}
+
+.critical {
+  background: #c0392b;
+}
+
+.high {
+  background: #c0392b;
+}
+
+.moderate {
+  background: #8a6a1a;
+}
+
+.low {
+  background: #2e6b3e;
+}
+
+.viewLink {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.viewLink:hover {
+  text-decoration: underline;
+}
+
+.hideOnMobile {
+  /* shown by default */
+}
+
+.showOnMobile {
+  display: none;
+}
+
+/* ─── 6. Featured Investigations ─── */
+.featuredGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.featuredCard {
+  position: relative;
+  background: var(--card-bg);
+  border-left: 3px solid var(--orange);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.featuredBadge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.featuredName {
+  font-family: var(--font-cormorant), serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--cream);
+  margin: 0;
+  padding-right: 72px;
+}
+
+.featuredSeverity {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cream-40);
+}
+
+.featuredSummary {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 13.5px;
+  color: var(--cream-60);
+  line-height: 1.65;
+  margin: 4px 0 8px;
+}
+
+.featuredCta {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.featuredCta:hover {
+  text-decoration: underline;
+}
+
+/* ─── 9. Substack CTA ─── */
+.substackCta {
+  background: var(--card-bg);
+  padding: 64px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.substackBody {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--cream-60);
+  line-height: 1.75;
+  max-width: 600px;
+  margin: 0 0 28px;
+}
+
+.substackCredit {
+  font-family: var(--font-source-sans), sans-serif;
+  font-size: 12px;
+  color: var(--cream-40);
+  margin-top: 20px;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .hero {
+    padding: 56px 24px 48px;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 48px 24px;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .featuredGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .showOnMobile {
+    display: table-cell;
+  }
+
+  .thesis {
+    padding: 36px 24px 40px;
+  }
+
+  .substackCta {
+    padding: 48px 24px;
+  }
+
+  .sectionTitle {
+    font-size: 1.6rem;
+  }
+}

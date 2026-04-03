@@ -1,0 +1,136 @@
+.footer {
+  background: var(--navy);
+  border-top: 1px solid var(--border);
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 72px 40px 48px;
+}
+
+/* ── Three-column grid ── */
+.columns {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 48px;
+}
+
+/* ── Brand column ── */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wordmark {
+  display: flex;
+  flex-direction: column;
+}
+
+.wordmarkTitle {
+  font-family: var(--font-cormorant);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--cream);
+  line-height: 1.15;
+}
+
+.wordmarkSub {
+  font-family: var(--font-source-sans);
+  font-weight: 600;
+  font-size: 8.5px;
+  color: var(--orange);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.tagline {
+  font-family: var(--font-source-sans);
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--cream-40);
+  line-height: 1.75;
+  max-width: 280px;
+}
+
+/* ── Link columns ── */
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.columnLabel {
+  font-family: var(--font-source-sans);
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--cream-25);
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+}
+
+.columnLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.columnLinks a {
+  font-family: var(--font-source-sans);
+  font-size: 13.5px;
+  color: var(--cream-60);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.columnLinks a:hover {
+  color: var(--orange);
+}
+
+/* ── Bottom row ── */
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.copyright {
+  font-family: var(--font-source-sans);
+  font-size: 12px;
+  color: var(--cream-25);
+}
+
+.builtFor {
+  font-family: var(--font-source-sans);
+  font-size: 12px;
+  color: var(--cream-25);
+  font-style: italic;
+}
+
+/* ── Mobile ── */
+@media (max-width: 900px) {
+  .inner {
+    padding: 56px 24px 40px;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .tagline {
+    max-width: 100%;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,32 @@
+.mapContainer {
+  width: 100%;
+  position: relative;
+}
+
+.mapContainer svg {
+  width: 100%;
+  height: auto;
+}
+
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  z-index: 50;
+  background: #141b24;
+  border: 1px solid rgba(248, 245, 239, 0.07);
+  padding: 8px 12px;
+  border-radius: 2px;
+  font-family: var(--font-source-sans);
+}
+
+.tooltipName {
+  font-weight: 700;
+  font-size: 13px;
+  color: #f8f5ef;
+}
+
+.tooltipScore {
+  font-size: 11px;
+  color: rgba(248, 245, 239, 0.60);
+  margin-top: 2px;
+}
